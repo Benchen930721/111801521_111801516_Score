@@ -14,7 +14,12 @@ for i in range(len(Score)):
         count += 1
 print(count)
 
+
+Score.sort()
+print(Score[0],Score[-1])
+
 average = 0
 for i in range(len(Score)):
   average = average + int(Score[i])/len(Score)
 print(average)
+
